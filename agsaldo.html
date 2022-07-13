@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <title>Cajero Automatico</title>
+    <meta charset="UTF-8">
+    <meta name="title" content="CajeroATM">
+
+    <!-- BOOTSTRAP -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="icon" type="image/png" href="img/iconoatm.png">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&amp;display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/f6f7ead16d.js" crossorigin="anonymous"></script>
+    
+    <!-- JS y CSS -->
+    <script src="js/javas.js"></script>
+    <link type="text/css" rel="stylesheet" href="css/estilo.css">
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <div class="col-xs-12"><img src="img/logo.png" alt=""></div>
+        <div class="col-xs-12"><p>Agregar Saldo</p></div>
+      </div>
+    </header>
+    <br>
+    <br>
+      <!-- contenedor -->
+      <div class="container container-fluid">
+        <!-- -----------div cajero----------- -->
+        <div>
+          <div class="boton-inicio">
+            <a href="index.html">
+              <button class="btn btn-primary">Inicio</button>
+            </a>
+          </div>
+          <div class="cajeroing">
+            <div class="saldoagregado">
+              <p id="saldoagregado"></p>
+            </div>
+            <div class="error">
+              <p id="error"></p>
+            </div>
+            <div class="error2">
+              <p id="error2"></p>
+            </div>
+            <input type="text" disabled="disabled" name="" id="proceso" placeholder="Cantidad">
+            <input type="text" name="" id="cantidad" placeholder="Ingresa la cantidad">
+          </div>
+          <table class="tenumerico">
+            <tr>
+              <td><button onclick="num7()" id="siete">7</button></td>
+              <td><button onclick="num8()" id="ocho">8</button></td>
+              <td><button onclick="num9()" id="nueve">9</button></td>
+            </tr>
+            <tr>
+              <td><button onclick="num4()" id="cuatro">4</button></td>
+              <td><button onclick="num5()" id="cinco">5</button></td>
+              <td><button onclick="num6()" id="seis">6</button></td>
+            </tr>
+            <tr>
+              <td><button onclick="num1()" id="uno">1</button></td>
+              <td><button onclick="num2()" id="dos">2</button></td>
+              <td><button onclick="num3()" id="tres">3</button></td>
+            </tr>
+            <tr>
+              <td><button onclick="num0()" id="cero">0</button></td>
+              <td><input type="button" class="" value="Borrar" onclick="borrar()"></td>
+            </tr>
+          </table>
+          <!-- Cajero Opciones-->
+          <div class="cajero">
+            <button type="button" class="col-xs-12 col-lg-6 col-sm-6 btn btn-success" value="Agregar Saldo" onclick="agregarsaldo()">Agregar Saldo<i class="fa-solid fa-circle-up"></i></button>
+          </div>
+        </div>
+      </div>
+    <!-- -------------FOOTER------------- -->
+    <footer class="container-fluid">
+      <div class="row">
+        <div class="col-xs-12 col-lg-6 col-sm-6">
+          Leonardo Zuluaga © 2021
+        </div>
+        <div class="col-xs-12 col-lg-6 col-sm-6">
+          <p>Super Cajero en HTML CSS JAVASCRIPT © 2021</p>
+          <p><i class="fa-solid fa-code"></i> with <i class="fas fa-heart"></i> by LZ</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

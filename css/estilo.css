@@ -1,0 +1,174 @@
+body{
+  font-family: 'Ubuntu', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+
+.logo img{
+  width: 15%;
+  height: auto;
+}
+.logo{
+  display: flex;
+  justify-content: space-around;
+  background-color: #000000;
+  color: #ffffff;
+  margin: 0;
+  padding: 1%;
+  font-size: 40px;
+}
+
+h1{
+  text-align: center;
+  color: #000000;
+  font-size: 30px;
+}
+
+.cajeroing {
+  text-align: center;
+  margin-bottom: 2%;
+  background-color: #BECDDC;
+  display: block;
+  width: 300px;
+  margin: 0 auto;
+  border-radius: 25px 25px 0 0;
+  
+}
+
+.opciones{
+  text-align: center;
+  margin: auto;
+}
+
+a{
+  text-decoration: none;
+  list-style: none;
+}
+
+.cajero {
+  text-align: center;
+}
+
+#saldoconsultado{
+  text-align: center;
+  margin: 8px 0 auto;
+  font-weight: bold;
+  width: 250px;
+
+  
+}
+
+#proceso{
+  background-color: #E5EBF1;
+  border-radius: 5px;
+  color: #000000;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+#cantidad{
+  margin-bottom: 20px;
+}
+
+.error{
+  text-align: center;
+  margin: 0 auto;
+  font-weight: bold;
+  width: 250px;
+  color: #EF1414;
+}
+.error2{
+  text-align: center;
+  margin: 0 auto;
+  font-weight: bold;
+  width: 250px;
+  color: #EF1414;
+}
+
+
+/*==================teclado NUMERICO==============*/
+
+
+
+.tenumerico{
+  margin:0 auto;
+  padding:20px;
+  background-color:#000000;
+  width:300px;
+  border-radius: 0 0 25px 25px;
+  margin-bottom: 20px;
+}
+
+.tenumerico td button{
+  display:block;
+  font-weight: bold;
+  width:70px;
+  height: 70px;
+  font-size: 25px;
+  border-radius: 20px;
+}
+.tenumerico td input{
+  display:block;
+  width:70px;
+  height: 70px;
+  font-size: 20px;
+  border-radius: 20px;
+  font-weight: bold;
+}
+
+
+
+
+
+
+/* ==========BTN===========*/
+.boton-inicio{
+  text-align: center;
+}
+
+
+.btn{
+  margin-bottom: 25px;
+  font-weight: bold;
+}
+
+
+
+
+
+/* =========BILLETES===========*/
+h2{
+  margin-top: 5px;
+  text-align: center;
+}
+.retirar{
+  text-align: center;
+  margin:0 auto;
+  padding:20px;
+  width:300px;
+}
+#retirar img{
+  width: 120px;
+  height: auto;
+
+}
+
+/* =========FOOTER===========*/
+
+footer {
+    color: #ffffff;
+    background-color: #000000;    
+    font-size: 20px;
+    bottom: 0;
+    padding: 30px 0 30px 0;
+}
+
+.fa-heart{
+  color: #E50000;
+}
+
+
+
+
